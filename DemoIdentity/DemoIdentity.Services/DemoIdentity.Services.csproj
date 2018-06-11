@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DemoIdentity.Domain\DemoIdentity.Domain.csproj" />
+    <ProjectReference Include="..\DemoIdentity.Utilities\DemoIdentity.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>

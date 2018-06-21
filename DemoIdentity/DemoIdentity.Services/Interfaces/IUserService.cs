@@ -5,6 +5,6 @@ namespace DemoIdentity.Services.Interfaces
     using DemoIdentity.Services.Models;
     public interface IUserService
     {
-        Task<UserProfileServiceModel> ProfileAsync(string username);
+        Task<UserProfileServiceModel> ProfileAsync(string id);
     }
 }
